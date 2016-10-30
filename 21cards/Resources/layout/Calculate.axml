@@ -33,4 +33,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/calculate" />
+    <TextView
+        android:text="TotalMall"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalMall" />
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultTable">
+        <TableRow>
+            <TextView
+                android:text="Name"
+                android:paddingRight="50dp" />
+            <TextView
+                android:text="Points"
+                android:paddingRight="10dp" />
+            <TextView
+                android:text="Money"
+                android:paddingRight="10dp" />
+        </TableRow>
+    </TableLayout>
 </LinearLayout>
